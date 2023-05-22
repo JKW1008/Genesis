@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/galleryGrid.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".bxslider").bxSlider({
+          auto: true,
+          autoControls: false,
+          stopAutoOnClick: false,
+          pager: false,
+          slideWidth: 1200,
+        });
+      });
+    </script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div id="logo">
+          <a href="#"><img src="./images/logo.png" /></a>
+        </div>
+        <nav>
+          <a href="https://mypage.genesis.com/kr/ko.html"
+            ><img src="./images/login.png"
+          /></a>
+          <input type="checkbox" id="menuicon" />
+          <label for="menuicon">
+            <span></span>
+            <span></span>
+          </label>
+          <div class="sidebar">
+            <div class="arcodion">
+              <input type="checkbox" id="answer01" />
+              <label for="answer01">MODELS<em></em></label>
+              <div>
+                <ul>
+                  <li>G90</li>
+                  <li>GV80</li>
+                  <li>G80</li>
+                  <li>GV70</li>
+                  <li>GV60</li>
+                </ul>
+              </div>
+              <input type="checkbox" id="answer02" />
+              <label for="answer02">SHOPPING<em></em></label>
+              <div>
+                <ul>
+                  <li>BUILD & PRICE</li>
+                </ul>
+              </div>
+              <input type="checkbox" id="answer03" />
+              <label for="answer03">EXPERIENCE<em></em></label>
+              <div>
+                <ul>
+                  <li>SPACE</li>
+                </ul>
+              </div>
+              <input type="checkbox" id="answer04" />
+              <label for="answer04">MEMBERS<em></em></label>
+              <div>
+                <ul>
+                  <li>GENESIS CONNECTED SERVICES</li>
+                  <li>DIGITAL SERVICES</li>
+                  <li>MAINTENANCE SERVICES</li>
+                </ul>
+              </div>
+              <input type="checkbox" id="answer05" />
+              <label for="answer05">GENESIS<em></em></label>
+              <div>
+                <ul>
+                  <li>THE BRAND</li>
+                  <li>CONCEPT CAR</li>
+                  <li>MOTOR SHOW</li>
+                  <li>GENESIS X GOLF</li>
+                </ul>
+              </div>
+              <input type="checkbox" id="answer06" />
+              <label for="answer06">SUPPORT<em></em></label>
+              <div>
+                <ul>
+                  <li>CUSTOMER CENTER</li>
+                  <li>NOTICE</li>
+                  <li>DOWNLOAD CENTER</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div id="Gallery">
+        <div class="bxslider">
+          <div><img src="./images/1.jpeg" alt="img" /></div>
+          <div><img src="./images/2.jpeg" alt="img" /></div>
+          <div><img src="./images/3.jpeg" alt="img" /></div>
+          <div><img src="./images/4.webp" alt="img" /></div>
+          <div><img src="./images/5.jpg" alt="img" /></div>
+          <div><img src="./images/6.jpeg" alt="img" /></div>
+          <div><img src="./images/7.jpeg" alt="img" /></div>
+        </div>
+        <div id="GalleryGrid">
+          <img src="./images/1.jpeg" alt="img" class="image image1" />
+          <img src="./images/2.jpeg" alt="img" class="image image2" />
+          <img src="./images/3.jpeg" alt="img" class="image image3" />
+          <img src="./images/4.webp" alt="img" class="image image4" />
+          <img src="./images/5.jpeg" alt="img" class="image image5" />
+          <img src="./images/6.jpeg" alt="img" class="image image6" />
+          <img src="./images/7.jpeg" alt="img" class="image image7" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
