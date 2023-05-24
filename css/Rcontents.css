@@ -1,0 +1,63 @@
+#Rcontents {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 40px;
+  font-family: "Raleway", sans-serif;
+}
+#Rcontents h2 {
+  font-size: 2em;
+  padding: 12px;
+  border-bottom: 1px solid black;
+  margin-bottom: 48px;
+}
+.contentsbox {
+  padding: 28px 0;
+}
+.Rimg {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 28px;
+}
+#Rimg1 {
+  background: url("../images/concept.webp");
+  background-size: cover;
+  background-position: center;
+}
+#Rimg2 {
+  background: url("../images/Motorshow.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#Rimg3 {
+  background: url("../images/digital.webp");
+  background-size: cover;
+  background-position: center;
+}
+.contentsbox h3 {
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+
+.Rtext p {
+  font-size: 1.1em;
+}
+.Rtext a {
+  color: black;
+}
+.Rtext a > p {
+  padding-top: 20px;
+  text-decoration: underline;
+  line-height: 1.2;
+}
+@media screen and (min-width: 768px) {
+  #innerwrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .contentsbox {
+    width: 33.3%;
+  }
+}

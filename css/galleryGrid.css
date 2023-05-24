@@ -1,15 +1,16 @@
 #Gallery {
-  padding: 48px;
   width: 100vw;
 }
-.bxslider div img {
-  object-fit: cover;
-  object-position: center;
+#bigImage {
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: none;
 }
 #GalleryGrid {
   width: 100%;
+  padding: 48px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax (150px, auto);
@@ -18,7 +19,14 @@
     "a a a"
     "b b c"
     "d e c"
-    "f f g";
+    "f f g"
+    "h i g"
+    "h j k"
+    "l m n"
+    "o m p"
+    "q q q"
+    "r r s"
+    "r r s";
 }
 
 .image {
@@ -48,4 +56,49 @@
 }
 .image7 {
   grid-area: g;
+}
+.image8 {
+  grid-area: h;
+}
+.image9 {
+  grid-area: i;
+}
+.image10 {
+  grid-area: j;
+}
+.image11 {
+  grid-area: k;
+}
+.image12 {
+  grid-area: l;
+}
+.image13 {
+  grid-area: m;
+}
+.image14 {
+  grid-area: n;
+}
+.image15 {
+  grid-area: o;
+}
+.image16 {
+  grid-area: p;
+}
+.image17 {
+  grid-area: q;
+}
+.image18 {
+  grid-area: r;
+}
+.image19 {
+  grid-area: s;
+}
+
+@media screen and (min-width: 768px) {
+  #bigImage {
+    display: block;
+  }
+  #GalleryGrid {
+    display: none;
+  }
 }

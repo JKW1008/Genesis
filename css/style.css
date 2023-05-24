@@ -6,6 +6,8 @@
 body {
   min-width: 300px;
   overflow-x: hidden;
+  background-color: #111;
+  font-family: "Raleway", sans-serif;
 }
 a {
   text-decoration: none;
@@ -21,6 +23,8 @@ header {
   background-color: #111;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  z-index: 999;
 }
 
 header #logo img {
@@ -129,7 +133,7 @@ input[id*="answer"] + label + div {
   transition: all 0.35s;
   overflow: hidden;
   background: inherit;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 input[id*="answer"] + label + div ul li {

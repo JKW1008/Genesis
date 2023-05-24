@@ -6,24 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/galleryGrid.css" />
+    <link rel="stylesheet" href="./css/shop.css" />
+    <link rel="stylesheet" href="./css/Rcontents.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap"
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-
-    <script>
-      $(document).ready(function () {
-        $(".bxslider").bxSlider({
-          auto: true,
-          autoControls: false,
-          stopAutoOnClick: false,
-          pager: false,
-          slideWidth: 1200,
-        });
-      });
-    </script>
+    <link rel="stylesheet" href="./css/news.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
 
     <title>Document</title>
   </head>
@@ -102,25 +167,293 @@
         </nav>
       </header>
       <div id="Gallery">
-        <div class="bxslider">
-          <div><img src="./images/1.jpeg" alt="img" /></div>
-          <div><img src="./images/2.jpeg" alt="img" /></div>
-          <div><img src="./images/3.jpeg" alt="img" /></div>
-          <div><img src="./images/4.webp" alt="img" /></div>
-          <div><img src="./images/5.jpg" alt="img" /></div>
-          <div><img src="./images/6.jpeg" alt="img" /></div>
-          <div><img src="./images/7.jpeg" alt="img" /></div>
-        </div>
+        <div id="bigImage"></div>
         <div id="GalleryGrid">
           <img src="./images/1.jpeg" alt="img" class="image image1" />
           <img src="./images/2.jpeg" alt="img" class="image image2" />
           <img src="./images/3.jpeg" alt="img" class="image image3" />
           <img src="./images/4.webp" alt="img" class="image image4" />
-          <img src="./images/5.jpeg" alt="img" class="image image5" />
+          <img src="./images/5.jpg" alt="img" class="image image5" />
           <img src="./images/6.jpeg" alt="img" class="image image6" />
           <img src="./images/7.jpeg" alt="img" class="image image7" />
+          <img src="./images/8.jpg" alt="img" class="image image8" />
+          <img src="./images/9.jpg" alt="img" class="image image9" />
+          <img src="./images/10.jpg" alt="img" class="image image10" />
+          <img src="./images/11.jpg" alt="img" class="image image11" />
+          <img src="./images/12.jpg" alt="img" class="image image12" />
+          <img src="./images/13.jpg" alt="img" class="image image13" />
+          <img src="./images/14.jpg" alt="img" class="image image14" />
+          <img src="./images/15.jpg" alt="img" class="image image15" />
+          <img src="./images/16.jpg" alt="img" class="image image16" />
+          <img src="./images/17.jpg" alt="img" class="image image17" />
+          <img src="./images/18.jpg" alt="img" class="image image18" />
+          <img src="./images/19.jpg" alt="img" class="image image19" />
         </div>
       </div>
+      <div id="shop">
+        <div class="product" id="g90">
+          <div class="text">
+            <h2>G90</h2>
+            <p>Experience your best premium</p>
+            <a href="#"><p>Build Your Genesis &nbsp;&nbsp;&nbsp;></p></a>
+          </div>
+        </div>
+        <div class="product" id="gv80">
+          <div class="text">
+            <h2>GV80</h2>
+            <p>The GV80, the first SUV by Genesis</p>
+            <a href="#"><p>Build Your Genesis &nbsp;&nbsp;&nbsp;></p></a>
+          </div>
+        </div>
+        <div class="product" id="g80">
+          <div class="text">
+            <h2>G80</h2>
+            <p>G80, the most representative model of the Genesis</p>
+            <a href="#"><p>Build Your Genesis &nbsp;&nbsp;&nbsp;></p></a>
+          </div>
+        </div>
+        <div class="product" id="g70">
+          <div class="text">
+            <h2>G70</h2>
+            <p>The G70, which started as a mid-sized luxury SEDAN</p>
+            <a href="#"><p>Build Your Genesis &nbsp;&nbsp;&nbsp;></p></a>
+          </div>
+        </div>
+        <div class="product" id="gv70">
+          <div class="text">
+            <h2>GV70</h2>
+            <p>GV70, premium urban SUV</p>
+            <a href="#"><p>Build Your Genesis &nbsp;&nbsp;&nbsp;></p></a>
+          </div>
+        </div>
+        <div class="product" id="gv60">
+          <div class="text">
+            <h2>GV60</h2>
+            <p>GV60 is the first dedicated EV model</p>
+            <a href="#"><p>Build Your Genesis &nbsp;&nbsp;&nbsp;></p></a>
+          </div>
+        </div>
+      </div>
+
+      <div id="news">
+        <div id="Awards">
+          <h2>THE AWARDS</h2>
+
+          <ul>
+            <li>
+              <a href="#">
+                <div class="screen">
+                  <div class="top">X CONVERTIBLE WINS AT THE</div>
+                  <div class="bottom">2023 CAR DESIGN AWARD</div>
+                  <img
+                    src="https://www.genesis.com/content/dam/genesis-p2/worldwide/assets/main/awards/genesis-ww-main-car-award-23-convertible-desktop-750x376.png"
+                  />
+                </div>
+                <div class="awtext">
+                  <h3>
+                    The Genesis X Convertible concept received the Car Design
+                    Award in Concept Cars category at the Car Design Award 2023
+                    ceremony. It embodies the thrill of driving in the EV era
+                    with an award-winning concept with a folding hard top roof
+                    and details that reflect the brand's Korean heritage.
+                  </h3>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="screen">
+                  <div class="top">GENESIS G90 WINS AT THE</div>
+                  <div class="bottom">2023 RED DOT DESIGN AWARD</div>
+                  <img
+                    src="https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/awards/genesis-kr-main-reddot-car-award-23-mo-750x376.jpg"
+                  />
+                </div>
+                <div class="awtext">
+                  <h3>
+                    The Genesis G90, the brand's flagship sedan, won the
+                    prestigious Red Dot Design award ths year in the Cars and
+                    Motorcycles catergory within Product Design discipline.
+                  </h3>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="screen">
+                  <div class="top">MOTORTREND NAMES GENESIS G90 2023</div>
+                  <div class="bottom">MOTORTREND CAR OF THE YEARⓇ</div>
+                  <img
+                    src="https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/awards/genesis-kr-main-motortrend-award-23-mobile-750x376.jpg"
+                  />
+                </div>
+                <div class="awtext">
+                  <h3>
+                    The Genesis G90 was named as 2023 MotorTrend Car of the
+                    Year® (North America) with excellent performance in all
+                    categories of design, engineering, efficiency, and safety.
+                  </h3>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="insta">
+          <div id="title">
+            <h4>INSTAGRAM</h4>
+            <h2>EXPERIENCE GENESIS</h2>
+          </div>
+          <div id="content">
+            <div class="newfeed">
+              <div id="insimg1" class="insimg"></div>
+              <div class="instext">
+                <p>
+                  Artfully agile in motion. Powered by an unparalleled force
+                  within. 𝙈𝙤𝙫𝙚 𝙇𝙞𝙠𝙚 𝙉𝙤 𝙊𝙩𝙝𝙚𝙧 The Genesis G70 *Featured model is
+                  available in Korea as of May 19, 2023. #Genesis #제네시스 #G70
+                  #MoveLikeNoOther
+                </p>
+                <a href="#"><p>See more &nbsp;&nbsp;&nbsp; ></p></a>
+              </div>
+            </div>
+            <div class="newfeed">
+              <div id="insimg2" class="insimg"></div>
+              <div class="instext">
+                <p>
+                  Dynamic aesthetics, with the power to move you. 📸@c.s_swansea
+                  #Genesis #제네시스 #GV70 Showcase the elegance in your
+                  everyday with #MYGENESIS on Instagram or Facebook, and your
+                  photo may be featured on our official accounts.
+                </p>
+                <a href="#"><p>See more &nbsp;&nbsp;&nbsp; ></p></a>
+              </div>
+            </div>
+            <div class="newfeed">
+              <div id="insimg3" class="insimg"></div>
+              <div class="instext">
+                <p>
+                  To face the future head-on; there’s nothing bolder.
+                  📸@chromalogue_cars #Genesis #제네시스 #G70 Showcase the
+                  elegance in your everyday with #MYGENESIS on Instagram or
+                  Facebook, and your photo may be featured on our official
+                  accounts.
+                </p>
+                <a href="#"><p>See more &nbsp;&nbsp;&nbsp; ></p></a>
+              </div>
+            </div>
+            <div class="newfeed">
+              <div id="insimg4" class="insimg"></div>
+              <div class="instext">
+                <p>
+                  The elegance of sheer athleticism runs through every line and
+                  curve. 📸@_jinesque #Genesis #제네시스 #G70 Showcase the
+                  elegance in your everyday with #MYGENESIS on Instagram or
+                  Facebook, and your photo may be featured on our official
+                  accounts.
+                </p>
+                <a href="#"><p>See more &nbsp;&nbsp;&nbsp; ></p></a>
+              </div>
+            </div>
+            <div class="newfeed">
+              <div id="insimg5" class="insimg"></div>
+              <div class="instext">
+                <p>
+                  Every passing glance becomes a double take. The striking
+                  presence of Electrified GV70. #Genesis #제네시스
+                  #ElectrifiedGV70
+                </p>
+                <a href="#"><p>See more &nbsp;&nbsp;&nbsp; ></p></a>
+              </div>
+            </div>
+            <div class="newfeed">
+              <div id="insimg6" class="insimg"></div>
+              <div class="instext">
+                <p>
+                  Bold linears in balance with graceful curves in every interior
+                  detail. #Genesis #제네시스 #ElectrifiedGV70
+                </p>
+                <a href="#"><p>See more &nbsp;&nbsp;&nbsp; ></p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="Rcontents">
+        <h2>RELATED CONTENTS</h2>
+        <div id="innerwrap">
+          <div class="contentsbox">
+            <div id="Rimg1" class="Rimg"></div>
+            <h3>CONCEPT CAR</h3>
+            <div class="Rtext">
+              <p>
+                ake a closer look at the Genesis design philosophy through our
+                concept vehicles. Explore perfect athletic proportions, precise
+                craftsmanship and attention to detail.
+              </p>
+              <a href="#"><p>Learn more&nbsp;&nbsp;&nbsp;></p></a>
+            </div>
+          </div>
+          <div class="contentsbox">
+            <div id="Rimg2" class="Rimg"></div>
+            <h3>MOTOR SHOW</h3>
+            <div class="Rtext">
+              <p>
+                Experience the most up-to-date line-up and the luxury of the
+                Genesis brand in the unique booth.
+              </p>
+              <a href="#"><p>Learn more&nbsp;&nbsp;&nbsp;></p></a>
+            </div>
+          </div>
+          <div class="contentsbox">
+            <div id="Rimg3" class="Rimg"></div>
+            <h3>DIGITAL SERVICES</h3>
+            <div class="Rtext">
+              <p>
+                We have mindfully chosen the technology that adds more
+                convenience to our customers' daily lives with Genesis.
+              </p>
+              <a href="#"><p>Learn more&nbsp;&nbsp;&nbsp;></p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <section id="contacts">
+          <div id="contact1">
+            <span><a href="#">Sitemap</a></span>
+            <span><a href="#">Terms and Conditions</a></span>
+            <span><a href="#">Privacy Policy</a></span>
+          </div>
+          <div id="contact2">
+            <span><a href="#">Copyright</a></span>
+            <span><a href="#">Warranty Information</a></span>
+          </div>
+          <div id="sns">
+            <img src="./images/social.png" alt="Facebook" width="30px" />
+            <img src="./images/social (1).png" alt="Instagram" width="30px" />
+            <img src="./images/play.png" alt="Youtube" width="30px" />
+          </div>
+        </section>
+        <section id="update">
+          <div class="footertext">
+            <a href="#"><p>NAVIGATION UPDATE</p></a>
+          </div>
+          <div class="footertext">
+            <a href="#"><p>ETHICS MANAGEMENT CYBER AUDIT OFFIC</p></a>
+          </div>
+          <div class="footertext">
+            <a href="#"><p>GENESIS WORLDWIDE</p></a>
+          </div>
+        </section>
+        <section id="footerlogo">
+          <img src="./images/logo.png" width="200px" />
+          <div id="logotext">
+            <p>© Copyright 2023 Hyundai Motor Company. All Rights Reserved.</p>
+          </div>
+        </section>
+      </footer>
     </main>
+    <script src="./js/backimg.js"></script>
+    <script src="./js/observer.js"></script>
   </body>
 </html>
